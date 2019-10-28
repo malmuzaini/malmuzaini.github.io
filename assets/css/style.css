@@ -1,0 +1,77 @@
+/* color palette here: https://coolors.co/114b5f-028090-e4fde1-456990-f45b69 */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap');
+
+body {
+  font-size: 14px;
+  font-family: 'Source Code Pro', monospace;
+  background-color: #114b5f;
+  color: #e4fde1;
+}
+
+/* Utilities */
+.size-3x {
+  font-size: 300%;
+}
+
+header {
+  padding: 30px 0;
+  padding-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.social-media-nav {
+  display: flexbox;
+}
+
+.social-media-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.social-media-nav a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #8cc5cc;
+  font-weight: bold;
+}
+
+.social-media-nav a:hover {
+  color: #f45b69;
+}
+
+@media (min-width: 768px){
+body {
+    font-size: 16px;
+  }
+}
+ 
+@media (min-width: 1024px){
+
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    padding-top: 60px;
+  }
+}
+ 
+@media (min-width: 1200px){
+body {
+    font-size: 20px;
+  }
+}
